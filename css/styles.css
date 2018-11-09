@@ -20,8 +20,8 @@ fieldset {
 }
 
 legend {
-  /* margin: 20px 0; */
-  padding: 20px 0;
+  margin: 0px 2px;
+  padding: 20px 2px;
   font-size: 1.3em;
   font-weight: bold;
 
@@ -86,6 +86,11 @@ header,
   border-top: solid 4px #2D3945;
 }
 
+.items {
+  background-color: #50BBB5;
+  padding: 5px 2px;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -119,6 +124,11 @@ input[type="radio"],
   margin: 20px 10px 10px 0;
   padding-right: 10px;
 
+}
+
+.checkbox_format,
+.radio_format  {
+  padding-left: 2px;
 }
 
 
@@ -164,6 +174,8 @@ input:focus,
 select:focus,
 textarea:focus {
   border-color: red;
+  background-color: #3D3D3D;
+  color:white;
 }
 
 /* //////////////////MEDIA QUERIES //////////////////////////////// */
@@ -171,6 +183,9 @@ textarea:focus {
 @media(min-width:768px) {
 .wrapper {
   margin: auto 0;
+
+  padding-left: 0.5;
+  padding-right: 0.5;
 }
 .items {
   display: flex;
