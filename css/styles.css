@@ -44,8 +44,8 @@ header > h1 {
 }
 
 .wrapper {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 header,
@@ -181,12 +181,7 @@ textarea:focus {
 /* //////////////////MEDIA QUERIES //////////////////////////////// */
 
 @media(min-width:768px) {
-.wrapper {
-  margin: auto 0;
 
-  padding-left: 0.5;
-  padding-right: 0.5;
-}
 .items {
   display: flex;
   width: 100%;
