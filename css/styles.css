@@ -13,7 +13,7 @@ body {
 
 }
 fieldset {
-  border:none;
+  border: none;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -54,7 +54,7 @@ header,
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
   border-bottom: solid 8px #2D3945;
 
@@ -145,7 +145,7 @@ input[type="radio"],
 button {
   margin: 20px 0;
   text-align: center;
-  width:100%;
+  width: 100%;
   height: 55px;
   background-color: #50BBB5;
   color: #fff;
@@ -175,7 +175,7 @@ select:focus,
 textarea:focus {
   border-color: red;
   background-color: #3D3D3D;
-  color:white;
+  color: white;
 }
 
 /* //////////////////MEDIA QUERIES //////////////////////////////// */
@@ -198,7 +198,7 @@ textarea:focus {
   display: flex;
 }
  #zipcode {
-   max-width:25%;
+   max-width: 25%;
  }
  .statement {
    font-size: 1em;
