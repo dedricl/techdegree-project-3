@@ -4,7 +4,7 @@
 
 hr {
   border: 2px solid black;
-  width: 100%;
+  margin-top: 4px;
 }
 
 
@@ -21,7 +21,7 @@ fieldset {
 
 legend {
   margin: 0px 2px;
-  padding: 20px 2px;
+  padding: 30px 2px 20px 2px;
   font-size: 1.3em;
   font-weight: bold;
 
@@ -54,9 +54,8 @@ header,
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  border-bottom: solid 8px #2D3945;
+
 
 }
  h2 {
@@ -83,7 +82,7 @@ header,
 .form {
 
   margin-top: 5px;
-  border-top: solid 4px #2D3945;
+  /* border-top: solid 4px #2D3945; */
 }
 
 .items {
@@ -126,9 +125,9 @@ input[type="radio"],
 
 }
 
-.checkbox_format,
-.radio_format  {
+.checkbox_format  {
   padding-left: 2px;
+  margin-bottom: 20px;
 }
 
 
@@ -150,6 +149,7 @@ button {
   background-color: #50BBB5;
   color: #fff;
   border-radius: 8px;
+  transition-duration: 2s;
 }
 
 textarea {
@@ -173,14 +173,34 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-  border-color: red;
+  border-color: purple;
   background-color: #3D3D3D;
   color: white;
+  text-align: left;
+  transition-delay: 1s;
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+button:hover {
+  background-color: red;
 }
 
 /* //////////////////MEDIA QUERIES //////////////////////////////// */
 
 @media(min-width:768px) {
+
+.form {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.intro_hr {
+  margin: 0 auto;
+  border-top: 8px solid black;
+  /* width: 50.2%; */
+}
 
 .items {
   display: flex;
